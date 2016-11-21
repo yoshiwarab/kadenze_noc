@@ -1,12 +1,33 @@
-body {
+body, html {
+  width: 100%;
+  margin: 0;
   font-family: "proxima-nova", sans-serif;
 }
 
 #title-section {
   width: 100%;
-  background:
+  padding: 3em 0 3em 0;
+  background-color: #EB005A;
+  text-align: center;
+}
+
+#title-section h1, #title-section h2, #title-section h3 {
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
 }
 
 #index-section {
+  width: 100%;
+  padding-top: 3em;
+  text-align: center;
+}
 
+#index-section .assignment {
+  margin-bottom: 1em;
+}
+
+#index-section .assignment a {
+  color: #000;
+  font-size: 18px;
 }
