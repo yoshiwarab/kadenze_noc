@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "budo sketch.js --live"
+  },
+  "browserify": {
+    "transform": [
+    ]
+  },
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "p5": "^0.5.3"
+  },
+  "devDependencies": {
+    "budo": "^9.2.1",
+    "uglify-js": "^2.7.3"
+  }
+}
